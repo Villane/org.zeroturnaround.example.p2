@@ -8,6 +8,8 @@
             touchpointType="org.eclipse.equinox.p2.osgi"
             version="1.0.0">
       </action>
+   </extension>
+   <extension point="org.eclipse.equinox.p2.engine.actions">
       <action
             class="org.zeroturnaround.example.p2.spells.OnUninstallAction"
             name="onUninstall"
@@ -15,5 +17,4 @@
             version="1.0.0">
       </action>
    </extension>
-
 </plugin>
