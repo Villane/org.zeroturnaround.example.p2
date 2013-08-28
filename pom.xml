@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.zeroturnaround.example.p2</groupId>
+	<artifactId>org.zeroturnaround.example.p2</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>The Well-Kept Secrets of P2</name>
+	<properties>
+		<tycho.version>0.18.1</tycho.version>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>eclipse-helios</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/indigo/</url>
+		</repository>
+	</repositories>
+	<modules>
+		<module>org.zeroturnaround.example.p2.spells</module>
+		<module>org.zeroturnaround.example.p2.main</module>
+		<module>org.zeroturnaround.example.p2.feature</module>
+		<module>org.zeroturnaround.example.p2.updatesite</module>
+	</modules>
+</project>

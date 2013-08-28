@@ -1,0 +1,6 @@
+provides.0.namespace=org.zeroturnaround.example.p2.spells
+provides.0.name=onInstall
+provides.0.version=1.0.0
+provides.1.namespace=org.zeroturnaround.example.p2.spells
+provides.1.name=onUninstall
+provides.1.version=1.0.0

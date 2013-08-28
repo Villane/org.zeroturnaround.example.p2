@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.zeroturnaround.example.p2.feature_1.0.0.qualifier.jar" id="org.zeroturnaround.example.p2.feature" version="1.0.0.qualifier">
+      <category name="secrets"/>
+   </feature>
+   <category-def name="secrets" label="The Well-Kept Secrets of P2"/>
+</site>

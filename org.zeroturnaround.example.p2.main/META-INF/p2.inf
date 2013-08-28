@@ -1,0 +1,7 @@
+metaRequirements.0.namespace=org.zeroturnaround.example.p2.spells
+metaRequirements.0.name=onInstall
+metaRequirements.1.namespace=org.zeroturnaround.example.p2.spells
+metaRequirements.1.name=onUninstall
+
+instructions.install=org.zeroturnaround.example.p2.spells.onInstall();
+instructions.uninstall=org.zeroturnaround.example.p2.spells.onUninstall();
