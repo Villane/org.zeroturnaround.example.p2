@@ -18,7 +18,7 @@ public class TxtFile {
 
   public void appendLine(String line) throws IOException {
     FileWriter out = new FileWriter(file, true);
-    out.append("\n" + line);
+    out.append(line + "\n");
     out.flush();
     out.close();
   }
