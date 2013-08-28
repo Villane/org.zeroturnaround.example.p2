@@ -32,7 +32,7 @@ public class OnInstallAction extends ProvisioningAction {
   }
 
   private void performUpgrade(IInstallableUnit iu, IInstallableUnit oldIu) {
-    String msg = "Upgrade: " + iu.getId() + " " + oldIu + " -> " + iu.getVersion();
+    String msg = "Upgrade: " + iu.getId() + " " + oldIu.getVersion() + " -> " + iu.getVersion();
     System.out.println(msg);
     try {
       TxtFile txtFile = TxtFile.get();
