@@ -8,6 +8,7 @@
 	<name>The Well-Kept Secrets of P2</name>
 	<properties>
 		<tycho.version>0.18.1</tycho.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
 		<plugins>
@@ -23,7 +24,7 @@
 		<repository>
 			<id>eclipse-helios</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/indigo/</url>
+			<url>http://download.eclipse.org/releases/helios/</url>
 		</repository>
 	</repositories>
 	<modules>
