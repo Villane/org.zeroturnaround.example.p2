@@ -29,6 +29,7 @@
 	</repositories>
 	<modules>
 		<module>org.zeroturnaround.example.p2.spells</module>
+		<module>org.zeroturnaround.example.p2.spells.feature</module>
 		<module>org.zeroturnaround.example.p2.main</module>
 		<module>org.zeroturnaround.example.p2.feature</module>
 		<module>org.zeroturnaround.example.p2.updatesite</module>

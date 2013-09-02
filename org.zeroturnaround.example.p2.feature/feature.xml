@@ -5,19 +5,17 @@
       version="1.0.0.qualifier"
       plugin="org.zeroturnaround.example.p2.main">
 
+   <includes
+         id="org.zeroturnaround.example.p2.spells.feature"
+         version="0.0.0"
+         optional="true"/>
+
    <requires>
       <import plugin="org.eclipse.core.runtime"/>
    </requires>
 
    <plugin
          id="org.zeroturnaround.example.p2.main"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.zeroturnaround.example.p2.spells"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -1,5 +1,6 @@
 metaRequirements.0.namespace=org.zeroturnaround.example.p2.spells
 metaRequirements.0.name=onInstall
+metaRequirements.0.range=1.0.0
 metaRequirements.1.namespace=org.zeroturnaround.example.p2.spells
 metaRequirements.1.name=onUninstall
 

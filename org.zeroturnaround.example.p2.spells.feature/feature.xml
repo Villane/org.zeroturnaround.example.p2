@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.zeroturnaround.example.p2.spells.feature"
+      label="Custom Install Actions Feature"
+      version="1.0.0.qualifier"
+      plugin="org.zeroturnaround.example.p2.spells">
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.equinox.p2.engine"/>
+      <import plugin="org.eclipse.equinox.p2.metadata"/>
+      <import plugin="org.eclipse.equinox.p2.touchpoint.eclipse"/>
+   </requires>
+
+   <plugin
+         id="org.zeroturnaround.example.p2.spells"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

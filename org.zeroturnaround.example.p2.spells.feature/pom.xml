@@ -5,9 +5,8 @@
     <artifactId>org.zeroturnaround.example.p2</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>org.zeroturnaround.example.p2.spells</groupId>
-  <artifactId>org.zeroturnaround.example.p2.spells</artifactId>
+  <artifactId>org.zeroturnaround.example.p2.spells.feature</artifactId>
+  <packaging>eclipse-feature</packaging>
   <version>1.0.0-SNAPSHOT</version>
-  <packaging>eclipse-plugin</packaging>
-  <name>Custom Install Actions</name>
+  <name>Custom Install Actions Feature</name>
 </project>
